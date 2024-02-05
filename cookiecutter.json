@@ -1,0 +1,18 @@
+{
+  "db_name_kebab_case": "example-name-db",
+  "state_s3_bucket_name": "terraform-state",
+  "lock_dynamo_table_name": "terraform-lock-table",
+  "lock_dynamo_key_prefix": "terraform/",
+  "aws_region": "us-east-1",
+  "owning_team_name": "The Best Team Name Ever",
+  "root_user_name": "root",
+  "flyway_user_name": "flyway_rw",
+  "app_user": "app_rw",
+  "support_user": "support_ro",
+  "postgres_version": "16.1",
+  "monitoring_interval_seconds": 60,
+  "min_acu_capacity": 0.5,
+  "max_acu_capacity": 64,
+  "backup_retention_period": 7,
+  "starting_schema": "main"
+}
